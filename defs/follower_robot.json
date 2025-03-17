@@ -1,0 +1,19 @@
+{
+  "name": "FollowerRobot",
+  "type": "dynamic",
+  "description": "A follower robot that stays behind the leader.",
+  "shape": [
+    { "x": -5, "y": -5 },
+    { "x": 5, "y": -5 },
+    { "x": 5, "y": 5 },
+    { "x": -5, "y": 5 }
+  ],
+  "mass": 10,
+  "friction": {
+    "collision": 0.5,
+    "linear": 0.3,
+    "rotational": 0.3
+  },
+  "sensors": [],
+  "controller": "lib/follower_robot.so"
+}

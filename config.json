@@ -1,0 +1,88 @@
+{
+
+    "name": "My Enviro Project",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [],
+
+    "agents": [
+        {
+          "definition": "defs/naughty_robot.json",
+          "style": { "fill": "blue", "stroke": "black" },
+          "position": { "x": 0, "y": 0, "theta": 0 },
+          "leader_id": 0
+        },
+        {
+          "definition": "defs/follower_robot.json",
+          "style": { "fill": "red", "stroke": "black" },
+          "position": { "x": -30, "y": -30, "theta": 0 },
+          "leader_id": 1
+        },
+        {
+          "definition": "defs/follower_robot.json",
+          "style": { "fill": "green", "stroke": "black" },
+          "position": { "x": -60, "y": -60, "theta": 0 },
+          "leader_id": 2
+        },        
+        {
+            "definition": "defs/follower_robot.json",
+            "style": { "fill": "yellow", "stroke": "black" },
+            "position": { "x": -90, "y": -90, "theta": 0 },
+            "leader_id": 3
+        },
+        {
+            "definition": "defs/follower_robot.json",
+            "style": { "fill": "purple", "stroke": "black" },
+            "position": { "x": -120, "y": -120, "theta": 0 },
+            "leader_id": 4
+        },
+        {
+            "definition": "defs/follower_robot.json",
+            "style": { "fill": "white", "stroke": "black" },
+            "position": { "x": -120, "y": -120, "theta": 0 },
+            "leader_id": 5
+        }
+      ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        }
+
+    ]
+
+}
