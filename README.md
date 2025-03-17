@@ -8,8 +8,6 @@ This project demonstrates a multi-robot system developed using Elma and Enviro. 
 
 - **Leader Robot:** Moves along a looping path (for example, a circle or rectangle) autonomously.
 - **Follower Robots:** Use range sensor data and position feedback to follow the Leader (or the preceding Follower) at an optimal distance.
-- **Train Formation:** Multiple Follower robots form a train, each following the one in front.
-- **Extendable Logic:** The system is designed for easy extension with features like obstacle avoidance and flocking behaviors.
 
 ## Installation / Setup
 
